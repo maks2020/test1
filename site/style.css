@@ -1,0 +1,166 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+ul {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+body {
+	text-align: center;
+	background-image: url(images/bg_body.png);
+	background-repeat: no-repeat;
+	background-position: top; 
+	background-color: #0e0e0e;
+	font-size: 12px;
+	font-family: Arial, Helvetica, sans-serif;
+	padding-top: 39px;
+	margin: 0 auto;
+	width: 960px;
+}
+
+#logo_nav {
+	height: 98px;
+	border-radius: 5px 5px 0 0;
+	background: #ffffff;
+}
+
+#logo_phone {
+	float: right;
+}
+
+#logo {
+	width: 230px;
+	padding: 31px 0 0 41px;
+}
+
+#nav {
+	width: 490px;
+	position: relative;
+	left: 440px;
+	bottom: 20px;
+}
+
+#nav li {
+	margin-right: 50px;
+	font-weight: bold;
+	color: #808080;
+	display: inline-block;
+}
+
+#nav li:last-child {
+	margin-right: 0px;
+}
+#panel {
+	position: relative;
+}
+
+#panel #abus {
+	font-size: 25px;
+	color: #ffffff;
+	width: 150px;
+	position: absolute;
+	bottom: 33px;
+	left: 40px;
+}
+#panel #main_text {
+	font-size: 20px;
+	font-weight: 100;
+	font-style: italic;
+	color: #ffffff;
+	width: 500px;
+	position: absolute;
+	bottom: 33px;
+	right: 38px;
+}
+
+section {
+	font-size: 12px;
+	width: 700px;
+	text-align: left;
+	line-height: 2;
+	background: #ffffff;
+	float: left;
+	height: 700px;
+	
+}
+
+section p {
+	padding: 0px 28px 0 40px;
+}
+
+section p:first-child {
+	padding: 40px 28px 0 40px;
+}
+
+
+
+aside {
+	font-weight: bold;
+	font-size: 15px;
+	background: #ffffff;
+	float: right;
+	background: linear-gradient(to right, #ededed, #ffffff 22px);
+	width: 260px;
+	height: 700px;
+}
+
+aside .header_aside {
+	text-align: left;
+	padding-left: 22px;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	margin-top: 39px;
+	background: linear-gradient(to right, #cfcfcf, #ffffff);
+}
+
+#aside_img {
+	position: relative;
+	top: 34px;
+}
+
+aside ul {
+	font-family: "Arial";
+	font-size:12px;
+	font-weight: 100;
+	color: #0f4db6;
+	text-align: left;
+	list-style-image: url("images/ul_marker_aside.gif");
+}
+
+#ul_aside_div {
+	width: 220px;
+	position: relative;
+	top: 22px;
+	left: 35px;
+}
+
+.dote_aside {
+	font-family: "Arial";
+	font-size: 12px;
+	text-align: left;
+	color: #838383;
+	
+}
+
+.second_last_ul_aside {
+	padding-top: 8px;
+}
+
+/*aside p {
+	font-family: "Arial Regular";
+	font-size: 12px;
+}*/
+
+
+
+
+
+
+
+
+
