@@ -1,6 +1,5 @@
 footer {
 	color: #4f4f4f;
-	/*background: #bababa;*/
 	background: linear-gradient(to top, #ededed 270px, #bababa);
 	text-align:left;
 	height: 274px;
@@ -54,6 +53,7 @@ footer #from_our_blog h2 {
 footer #copyright_footer p {
 	padding: 23px 0 0 42px;
 }
+
 
 
 /*снизу 22
