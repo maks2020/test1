@@ -1,0 +1,62 @@
+footer {
+	color: #4f4f4f;
+	/*background: #bababa;*/
+	background: linear-gradient(to top, #ededed 270px, #bababa);
+	text-align:left;
+	height: 274px;
+	width: 960px;
+	float: left;
+	clear: left;
+}
+
+.column_footer {
+	
+	
+	padding-top: 28px;
+	line-height: 1.333;
+	
+	height: 185px;
+	border-bottom: 1px solid #cccccc;
+	float:left;
+}
+
+#about_our_company {
+	width: 227px;
+	padding-left: 43px;
+}
+
+#our_testimonials {
+	width: 305px;
+	padding-right: 65px;
+}
+
+#from_our_blog {
+	width: 320px;
+}
+
+footer #about_our_company h2,
+footer #our_testimonials h2 {
+	padding-bottom: 30px;
+}
+
+footer #from_our_blog h2 {
+	padding-bottom: 20px;
+}
+
+#copyright_footer {
+	border-top: 1px solid #ffffff;
+	text-align: left;
+	width: 960px;
+	height: 59px;
+	float: left;
+}
+
+footer #copyright_footer p {
+	padding: 23px 0 0 42px;
+}
+
+
+/*снизу 22
+
+справа 41*/
+

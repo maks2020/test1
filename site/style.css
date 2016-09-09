@@ -23,6 +23,10 @@ body {
 	width: 960px;
 }
 
+h2 {
+	font-size: 15px;
+}
+
 #logo_nav {
 	height: 98px;
 	border-radius: 5px 5px 0 0;
@@ -86,7 +90,6 @@ section {
 	background: #ffffff;
 	float: left;
 	height: 700px;
-	
 }
 
 section p {
@@ -150,12 +153,6 @@ aside ul {
 .second_last_ul_aside {
 	padding-top: 8px;
 }
-
-/*aside p {
-	font-family: "Arial Regular";
-	font-size: 12px;
-}*/
-
 
 
 
