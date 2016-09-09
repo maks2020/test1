@@ -1,0 +1,17 @@
+section {
+	font-size: 12px;
+	width: 700px;
+	text-align: left;
+	line-height: 2;
+	background: #ffffff;
+	float: left;
+	height: 700px;
+}
+
+section p {
+	padding: 0px 28px 0 40px;
+}
+
+section p:first-child {
+	padding: 40px 28px 0 40px;
+}

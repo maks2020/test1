@@ -1,0 +1,48 @@
+aside {
+	font-weight: bold;
+	font-size: 15px;
+	background: #ffffff;
+	float: right;
+	background: linear-gradient(to right, #ededed, #ffffff 22px);
+	width: 260px;
+	height: 700px;
+}
+
+aside .header_aside {
+	text-align: left;
+	padding-left: 22px;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	margin-top: 39px;
+	background: linear-gradient(to right, #cfcfcf, #ffffff);
+}
+
+#ul_aside_div {
+	width: 220px;
+	position: relative;
+	top: 14px;
+	left: 35px;
+}
+
+#aside_img {
+	position: relative;
+	top: 34px;
+}
+
+aside .c1 :nth-child(odd) {
+	font-size:12px;
+	font-weight: 100;
+	color: #0f4db6;
+	text-align: left;
+	list-style-image: url("images/ul_marker_aside.gif");
+	padding-top: 8px;
+}
+
+aside .c1 :nth-child(even) {
+	font-family: "Arial";
+	font-size:12px;
+	font-weight: 100;
+	color: #838383;
+	text-align: left;
+	list-style: none;
+}
