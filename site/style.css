@@ -74,7 +74,9 @@ h2 {
 #panel #main_text {
 	font-size: 20px;
 	font-weight: 100;
-	font-style: italic;
+    font-style: italic;
+  	line-height: 1.2;
+  	text-align: left;
 	color: #ffffff;
 	width: 500px;
 	position: absolute;
@@ -100,8 +102,6 @@ section p:first-child {
 	padding: 40px 28px 0 40px;
 }
 
-
-
 aside {
 	font-weight: bold;
 	font-size: 15px;
@@ -121,38 +121,36 @@ aside .header_aside {
 	background: linear-gradient(to right, #cfcfcf, #ffffff);
 }
 
+#ul_aside_div {
+	width: 220px;
+	position: relative;
+	top: 14px;
+	left: 35px;
+}
+
 #aside_img {
 	position: relative;
 	top: 34px;
 }
 
-aside ul {
-	font-family: "Arial";
+aside .c1 :nth-child(odd) {
 	font-size:12px;
 	font-weight: 100;
 	color: #0f4db6;
 	text-align: left;
 	list-style-image: url("images/ul_marker_aside.gif");
-}
-
-#ul_aside_div {
-	width: 220px;
-	position: relative;
-	top: 22px;
-	left: 35px;
-}
-
-.dote_aside {
-	font-family: "Arial";
-	font-size: 12px;
-	text-align: left;
-	color: #838383;
-	
-}
-
-.second_last_ul_aside {
 	padding-top: 8px;
 }
+
+aside .c1 :nth-child(even) {
+	font-family: "Arial";
+	font-size:12px;
+	font-weight: 100;
+	color: #838383;
+	text-align: left;
+	list-style: none;
+}
+
 
 
 
