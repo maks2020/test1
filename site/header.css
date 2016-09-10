@@ -27,9 +27,29 @@
 	display: inline-block;
 }
 
+#nav li:first-child, #nav li:nth-child(2) {
+	margin-right: 35px;
+} 
+
 #nav li:last-child {
 	margin-right: 0px;
 }
+
+#button_nav_header {
+	width: 66px;
+	font-size: 12px;
+	font-weight: bold;
+	color: #ffffff;
+	border: 1px solid #01224c;
+	border-radius: 3px; 
+	background: #1961c1; /* For browsers that do not support gradients */
+	background: -webkit-linear-gradient(#1961c1, #003985, #1961c1); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(#1961c1, #003985, #1961c1); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(#1961c1, #003985, #1961c1); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(#1961c1, #003985, #1961c1); /* Standard syntax */
+	box-shadow: 0 4px 4px 0 rgba(0,0,0,0.5);
+}
+
 #panel {
 	position: relative;
 }

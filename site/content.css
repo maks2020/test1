@@ -4,14 +4,11 @@ section {
 	text-align: left;
 	line-height: 2;
 	background: #ffffff;
+	color: #565656;
 	float: left;
 	height: 700px;
 }
 
 section p {
-	padding: 0px 28px 0 40px;
-}
-
-section p:first-child {
-	padding: 40px 28px 0 40px;
+	padding: 40px 28px 0px 40px;
 }

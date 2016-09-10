@@ -6,14 +6,12 @@ footer {
 	width: 960px;
 	float: left;
 	clear: left;
+	border-radius: 0 0 5px 5px;
 }
 
 .column_footer {
-	
-	
 	padding-top: 28px;
 	line-height: 1.333;
-	
 	height: 185px;
 	border-bottom: 1px solid #cccccc;
 	float:left;
@@ -42,21 +40,54 @@ footer #from_our_blog h2 {
 	padding-bottom: 20px;
 }
 
+.p_from_our_blog {
+	padding-bottom: 19px;	
+}
+
+.p_from_our_blog span {
+	color: #0f4db6;
+	font-weight: bold;
+}
+
 #copyright_footer {
 	border-top: 1px solid #ffffff;
 	text-align: left;
 	width: 960px;
 	height: 59px;
 	float: left;
+	
 }
 
 footer #copyright_footer p {
 	padding: 23px 0 0 42px;
 }
 
+#logo_footer {
+	width: 117px;
+	position: relative;
+	left: 802px;
+	top: -16px;
+}
 
+#twitter_social {
+	width: 21px;
+	position: relative;
+	top: -37px;
+	left: 641px;
+	
+}
 
-/*снизу 22
+#in_social {
+	width: 21px;
+	position: relative;
+	top: -60px;
+	left: 673px;
+	
+}
 
-справа 41*/
-
+#facebook_social {
+	width: 21px;
+	position: relative;
+	top: -82px;
+	left: 708px;	
+}
