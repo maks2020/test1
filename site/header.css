@@ -5,19 +5,59 @@
 }
 
 #logo_phone {
+	text-align: left;
 	float: right;
 }
 
-/*#logo {
+#logo {
 	width: 230px;
-	padding: 31px 0 0 41px;
-}*/
+	position: relative;
+	top: 31px;
+	left: 41px;
+}
+
+#logo_image {
+	width: 42px;
+	text-align: left;
+	float: left;
+}
+
+#litter_B_logo {
+	width: 20px;
+	text-align: left;
+	font-size: 22px;
+	font-weight: bold;
+	color: #ffffff;
+	position: relative;
+	top: -31px;
+	left: 8px;
+}
+
+#logo_text_1 {
+	width:  155px;
+	text-align: left;
+	font-size: 22px;
+	padding-left: 5px;
+	float:left;
+}
+
+#logo_text_2 {
+	width:  180px;
+	text-align: left;
+	font-size: 11px;
+	color: #969595;
+	padding-left: 8px;
+	position: relative;
+	top: -2px;
+	left: 8px;
+	/*float: left;*/
+}
 
 #nav {
 	width: 490px;
-	position: relative;
-	left: 440px;
-	bottom: 20px;
+	text-align: left;
+	padding-top: 12px;
+	float: right;
 }
 
 #nav li {
@@ -41,7 +81,7 @@
 	font-weight: bold;
 	color: #ffffff;
 	border: 1px solid #01224c;
-	border-radius: 3px; 
+	border-radius: 6px; 
 	background: #1961c1; /* For browsers that do not support gradients */
 	background: -webkit-linear-gradient(#1961c1, #003985, #1961c1); /* For Safari 5.1 to 6.0 */
 	background: -o-linear-gradient(#1961c1, #003985, #1961c1); /* For Opera 11.1 to 12.0 */
