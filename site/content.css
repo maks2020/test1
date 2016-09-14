@@ -6,9 +6,12 @@ section {
 	background: #ffffff;
 	color: #565656;
 	float: left;
-	height: 700px;
 }
 
 section p {
 	padding: 40px 28px 0px 40px;
+}
+
+section p:last-child {
+	padding-bottom: 40px;
 }
