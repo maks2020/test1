@@ -1,0 +1,60 @@
+#content_main {
+	width: 960px;
+	background: #ffffff;
+	float: left;
+}
+
+.column_context,
+.column_context_2,
+.column_context_3 {
+	width: 265px;
+	text-align: left;
+	line-height: 1.4;
+	margin: 35px 0px 0px 40px;
+	float: left;
+}
+
+.column_context h3,
+.column_context_2 h3,
+.column_context_3 h3 {
+	padding-top: 25px;
+}
+
+.column_context_2 {
+	margin: 55px 0px 0px 40px;
+}
+
+.column_context_3 {
+	margin: 55px 0px 32px 40px;
+}
+
+#count_page {
+	width: 960px;
+	text-align: left;
+	font-size: 13px;
+	background: #ededed;
+	height: 65px;
+	background: linear-gradient(to bottom, #ededed, #ffffff 22px);
+	float:left;
+}
+
+#count_page p {
+	padding: 22px 0 0 45px;
+	float: left;
+}
+
+#menu_header_2 {
+	text-align: left;
+	width: 341px;
+	float: right;
+}
+
+#menu_header_2 li {
+	margin-right: 10px;
+	font-weight: bold;
+	color: #808080;
+	display: inline-block;
+}
+
+#menu_header_2
+
