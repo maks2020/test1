@@ -2,10 +2,9 @@ aside {
 	font-weight: bold;
 	font-size: 15px;
 	background: #ffffff;
-	float: right;
 	background: linear-gradient(to right, #ededed, #ffffff 22px);
 	width: 260px;
-	height: 700px;
+	float: right;
 }
 
 aside .header_aside {
@@ -17,16 +16,29 @@ aside .header_aside {
 	background: linear-gradient(to right, #cfcfcf, #ffffff);
 }
 
+aside #site_navigator {
+	float: left;
+}
+
 #ul_aside_div {
-	width: 220px;
+	padding: 14px 0 0 35px;
+	float: left;
+	/*width: 220px;
 	position: relative;
 	top: 14px;
-	left: 35px;
+	left: 35px;*/
+}
+
+
+#our_clients {
+	text-align: center;
+	float: left;
 }
 
 #aside_img {
-	position: relative;
-	top: 34px;
+	padding-top: 34px;
+	float: left;
+	
 }
 
 aside .c1 :nth-child(odd) {
@@ -46,3 +58,4 @@ aside .c1 :nth-child(even) {
 	text-align: left;
 	list-style: none;
 }
+
