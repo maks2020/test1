@@ -1,19 +1,24 @@
 footer {
 	color: #4f4f4f;
-	background: linear-gradient(to top, #ededed 270px, #bababa);
+	background: linear-gradient(to top, #ededed 98%, #bababa);
 	text-align:left;
-	height: 274px;
+	/*min-height: 274px;*/
 	width: 960px;
 	float: left;
-	clear: left;
 	border-radius: 0 0 5px 5px;
+}
+
+#top_footer {
+	border-bottom: 1px solid #cccccc;
+	padding-bottom: 30px;
+	float: left;
 }
 
 .column_footer {
 	padding-top: 28px;
 	line-height: 1.333;
 	height: 185px;
-	border-bottom: 1px solid #cccccc;
+	/*border-bottom: 1px solid #cccccc;*/
 	float:left;
 }
 

@@ -1,14 +1,22 @@
 section {
 	font-size: 12px;
-	width: 700px;
+	width: 960px;
 	text-align: left;
 	line-height: 2;
 	background: #ffffff;
 	color: #565656;
-	float: left;
-	height: 700px;
+	background: linear-gradient(to right, #ededed 700px, #ffffff 722px);
+}
+
+#content {
+	width: 700px;
+	background: #ffffff;
 }
 
 section p {
 	padding: 40px 28px 0px 40px;
+}
+
+section p:last-child {
+	padding-bottom: 40px;
 }
