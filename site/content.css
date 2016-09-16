@@ -17,6 +17,10 @@ section p {
 	padding: 40px 28px 0px 40px;
 }
 
+section p:first-child {
+	padding-top: 124px;
+}
+
 section p:last-child {
 	padding-bottom: 40px;
 }

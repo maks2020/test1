@@ -91,26 +91,28 @@
 }
 
 #panel {
-	position: relative;
+	width: 960px;
+	height: 84px;
+	background-image: url("images/header_panel grad.png");
+	background-repeat: no-repeat;
+	float: left;
 }
 
-#panel #abus {
+#about_us {
 	font-size: 25px;
 	color: #ffffff;
 	width: 150px;
-	position: absolute;
-	bottom: 33px;
-	left: 40px;
+	padding: 34px 0 0 40px;
+	float: left;
 }
-#panel #main_text {
+
+ #panel #main_text {
 	font-size: 20px;
 	font-weight: 100;
     font-style: italic;
-  	line-height: 1.2;
   	text-align: left;
 	color: #ffffff;
-	width: 500px;
-	position: absolute;
-	bottom: 33px;
-	right: 38px;
+	width: 475px;
+	padding: 37px 37px 0 0;
+	float: right;
 }
