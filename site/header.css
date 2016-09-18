@@ -23,14 +23,14 @@
 }
 
 #nav {
-	width: 490px;
+	width: 510px;
 	text-align: left;
 	padding-top: 12px;
 	float: right;
 }
 
 #nav li {
-	margin-right: 50px;
+	margin-right: 16px;
 	font-weight: bold;
 	color: #808080;
 	display: inline-block;
@@ -40,13 +40,11 @@
 	margin-right: 0px;
 }
 
-#button_nav_header {
-	width: 66px;
-	font-size: 12px;
+#button_nav_header_active {
 	font-weight: bold;
 	color: #ffffff;
-	border: 1px solid #01224c;
-	border-radius: 6px; 
+	border: none; /*1px solid #1961c1; /*#01224c;*/
+	border-radius: 5px; 
 	background: #1961c1; /* For browsers that do not support gradients */
 	background: -webkit-linear-gradient(#1961c1, #003985, #1961c1); /* For Safari 5.1 to 6.0 */
 	background: -o-linear-gradient(#1961c1, #003985, #1961c1); /* For Opera 11.1 to 12.0 */
@@ -54,6 +52,37 @@
 	background: linear-gradient(#1961c1, #003985, #1961c1); /* Standard syntax */
 	box-shadow: 0 4px 4px 0 rgba(0,0,0,0.5);
 }
+
+.button_nav_header_hidden {
+	font-weight: bold;
+	border: 1px solid #ffffff;
+	border-radius: 5px;
+	background: none;
+	-webkit-transition-duration: 0.7s; /* Safari */
+    transition-duration: 0.7s;
+}
+
+.button_nav_header_hidden:hover {
+	font-weight: bold;
+	color: #ffffff;
+	border: none;
+	border-radius: 5px;
+	background: #1961c1; /* For browsers that do not support gradients */
+	background: -webkit-linear-gradient(#1961c1, #003985, #1961c1); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(#1961c1, #003985, #1961c1); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(#1961c1, #003985, #1961c1); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(#1961c1, #003985, #1961c1); /* Standard syntax */
+	box-shadow: 0 4px 4px 0 rgba(0,0,0,0.5);
+}
+
+.width_66 {
+	width: 66px;
+}
+
+.width_100 {
+	width: 100px;
+}
+
 
 #panel {
 	text-align: left;
