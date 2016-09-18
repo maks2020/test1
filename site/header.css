@@ -26,13 +26,12 @@
 	width: 510px;
 	text-align: left;
 	padding-top: 12px;
+	padding-right: 11px;
 	float: right;
 }
 
 #nav li {
 	margin-right: 16px;
-	font-weight: bold;
-	color: #808080;
 	display: inline-block;
 }
 
@@ -43,7 +42,7 @@
 #button_nav_header_active {
 	font-weight: bold;
 	color: #ffffff;
-	border: none; /*1px solid #1961c1; /*#01224c;*/
+	border: none;
 	border-radius: 5px; 
 	background: #1961c1; /* For browsers that do not support gradients */
 	background: -webkit-linear-gradient(#1961c1, #003985, #1961c1); /* For Safari 5.1 to 6.0 */
@@ -58,6 +57,7 @@
 	border: 1px solid #ffffff;
 	border-radius: 5px;
 	background: none;
+	color: #808080;
 	-webkit-transition-duration: 0.7s; /* Safari */
     transition-duration: 0.7s;
 }
@@ -83,6 +83,9 @@
 	width: 100px;
 }
 
+.width_66, .width_100 {
+	height: 26px;
+}
 
 #panel {
 	text-align: left;
