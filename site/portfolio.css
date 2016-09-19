@@ -47,6 +47,9 @@
 
 #panel {
 	text-align: left;
+	height: 84px;
+	background-image: url("images/header_panel grad.png");
+	background-repeat: no-repeat;
 }
 
 #panel #menu_header_2 {
@@ -68,3 +71,4 @@
 	font-size: 25px;
 	color: red;
 }
+

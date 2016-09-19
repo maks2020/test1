@@ -1,3 +1,9 @@
+#panel {
+	height: 84px;
+	background-image: url("images/header_panel grad.png");
+	background-repeat: no-repeat;
+}
+
  #panel #main_text {
 	text-align: right;
 	font-size: 20px;

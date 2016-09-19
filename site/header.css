@@ -54,7 +54,7 @@
 
 .button_nav_header_hidden {
 	font-weight: bold;
-	border: 1px solid #ffffff;
+	border: none;
 	border-radius: 5px;
 	background: none;
 	color: #808080;
@@ -90,9 +90,6 @@
 #panel {
 	text-align: left;
 	width: 960px;
-	height: 84px;
-	background-image: url("images/header_panel grad.png");
-	background-repeat: no-repeat;
 	float: left;
 }
 

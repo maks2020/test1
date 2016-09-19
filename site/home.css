@@ -1,0 +1,146 @@
+#content_main {
+	width: 960px;
+	background: #ffffff;
+	float: left;
+}
+
+.column_context,
+.column_context_2,
+.column_context_3 {
+	width: 265px;
+	text-align: left;
+	line-height: 1.4;
+	margin: 35px 0px 0px 40px;
+	float: left;
+}
+
+.column_context h3,
+.column_context_2 h3,
+.column_context_3 h3 {
+	padding-top: 25px;
+}
+
+.column_context_2 {
+	margin: 55px 0px 0px 40px;
+}
+
+.column_context_3 {
+	margin: 55px 0px 32px 40px;
+}
+
+#count_page {
+	width: 960px;
+	text-align: left;
+	font-size: 13px;
+	font-weight: bold;
+	color: #0f4db6;
+	background: #ededed;
+	height: 65px;
+	background: linear-gradient(to bottom, #ededed, #ffffff 22px);
+	float:left;
+}
+
+#count_page p {
+	padding: 22px 0 0 45px;
+	float: left;
+}
+
+#panel {
+	text-align: left;
+
+	height: 336px;	
+	width: 960px;
+	background: #1b64c8;
+}
+
+#panel #image_panel {
+	filter: alpha(opacity=30);
+    -moz-opacity: 0.5;
+    -khtml-opacity: 0.5;
+    opacity: 0.5;
+}
+
+#bg_01 {
+	height: 336px;
+	width: 960px;
+	background: linear-gradient(to bottom, #072666, #1b64c8 130px);
+	opacity: .8;
+	float: left;
+}
+
+#bg_02 {
+	width: 960px;
+	float: left;
+}
+
+#panel #menu_header_2 {
+	text-align: right;
+	font-size: 13px;
+	font-weight: 100;
+	color: #93daff;
+	width: 360px;
+	padding: 41px 30px 0 0;
+	float: right;
+}
+
+#menu_header_2 li {
+	margin-right: 10px;
+	display: inline-block;
+}
+
+#head_panel_header {
+	font-size: 25px;
+	color: red;
+}
+
+@font-face {
+	font-family: trebuchet;
+	src: url("font/trebuchet_ms/trebuchet_ms.ttf");
+}
+
+#text_block {
+	width: 400px;
+	text-align: left;
+	font-family: trebuchet;
+	color: #ffffff;
+	position: relative;
+	top: -247px;
+	left: 50px;
+}
+
+#text_block_1 {
+	width: 330px;
+	font-size: 29px;
+	float: left;
+}	
+
+#text_block_2 {
+	width: 400px;
+	font-size: 35px;
+	float: left;
+}
+
+#get_started_here {
+	text-align: left;
+	width: 256px;
+	height: 51px;
+	font-family: trebuchet;
+	font-size: 20px;
+	color: #b90016;
+	border: none;
+	border-radius: 8px; 
+	background: linear-gradient(#fcfcfc, #f1f1f1 5px, #cbcbcb 26px, #d9d9d9 49px, #0939a7);
+	margin-top: 37px;
+	box-shadow: 0 4px 4px 0 rgba(9,57,167,.75);
+}
+
+#str_button_get_started_here {
+	position: relative;
+	top: -32px;
+	left: 219px;
+}
+
+#string_get_started_here {
+	padding-left: 26px;
+}
+
