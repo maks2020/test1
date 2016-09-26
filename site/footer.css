@@ -2,7 +2,6 @@ footer {
 	color: #4f4f4f;
 	background: linear-gradient(to top, #ededed 98%, #bababa);
 	text-align:left;
-	/*min-height: 274px;*/
 	width: 960px;
 	float: left;
 	border-radius: 0 0 5px 5px;
@@ -46,12 +45,17 @@ footer #from_our_blog h2 {
 }
 
 .p_from_our_blog {
-	padding-bottom: 19px;	
+	padding-bottom: 19px;
+		
 }
 
 .p_from_our_blog span {
 	color: #0f4db6;
 	font-weight: bold;
+}
+
+#from_our_blog p {
+	padding-right: 37px;
 }
 
 #copyright_footer {
@@ -60,7 +64,6 @@ footer #from_our_blog h2 {
 	width: 960px;
 	height: 59px;
 	float: left;
-	
 }
 
 footer #copyright_footer p {
