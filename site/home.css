@@ -135,6 +135,7 @@
 }
 
 #str_button_get_started_here {
+	width: 40px;
 	position: relative;
 	top: -32px;
 	left: 219px;
@@ -143,4 +144,118 @@
 #string_get_started_here {
 	padding-left: 26px;
 }
+
+#v_design_v_code {
+	width: 439px;
+	height: 316px;
+	position: relative;
+	left: 491px;
+	top: 41px;
+}
+
+#v_design_v_code_bg {
+	width: 439px;
+	height: 295px;
+	background: rgba(255, 255, 255, 0.2);
+	border-radius: 10px 10px 0 0;
+}
+
+#img_v_design_v_code {
+	width: 398px;
+	height: 268px;
+	position: absolute;
+	top: 48px;
+	left: 20px;
+	border-bottom: 1px solid #bcc0c5;
+}
+
+#v_design_v_code_bg_shadow_left {
+	width: 20px;
+	height: 21px;
+	background: linear-gradient(45deg, transparent 50%, #bcc0c5 50%);
+	position: absolute;
+	top: 295px;
+	left: 0px;
+}
+
+#v_design_v_code_bg_shadow_right {
+	width: 21px;
+	height: 21px;
+	background: linear-gradient(-45deg, transparent 50%, #bcc0c5 50%);
+	position: absolute;
+	top: 295px;
+	right: 0px;
+}
+
+#u_design_v_code_text {
+	
+	width: 177px;
+	position: absolute;
+	top: 14px;
+	left: 25px;
+}
+
+#u_design_v_code_text p {
+	
+	font-weight: 500;
+	
+	font-size: 19px;
+	
+	color: #ffffff;
+}
+
+#panel_3_blurbs {
+	width: 960px;
+	height: 120px;
+	background: #ebebeb;
+	border-top: 1px solid #e8e8e8;
+	border-bottom: 1px solid #d1d1d1;
+}
+
+.block_3_blurbs {
+	text-align: left;
+	width: 305px;
+	float: left;
+}
+
+#wallet_3_blurbs {
+	padding: 39px 0 0 45px;
+}
+
+#clock_3_blurbs {
+	padding-top: 34px;
+}
+
+#phone_3_blurbs {
+	padding-top: 41px;
+}
+
+.image_3_blurbs {
+	width: 91px;
+	float: left;
+}
+
+.block_3_blurbs h3 {
+	color: #575757;
+	font-size: 15px;
+}
+
+#wallet_3_blurbs h3 {
+padding-top: 9px;
+}
+
+#clock_3_blurbs h3 {
+padding-top: 14px;
+}
+
+#phone_3_blurbs h3 {
+padding-top: 7px;
+}
+
+.block_3_blurbs p {
+	color: #4f4f4f;
+	margin-right: 60px;
+}
+
+
 
