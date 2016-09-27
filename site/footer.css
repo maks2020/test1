@@ -21,6 +21,10 @@ footer {
 	float:left;
 }
 
+.column_footer h2 {
+	color: #585858;
+}
+
 #about_our_company {
 	width: 227px;
 	padding-left: 43px;
@@ -49,10 +53,12 @@ footer #from_our_blog h2 {
 		
 }
 
-.p_from_our_blog span {
+.p_from_our_blog::first-line {
 	color: #0f4db6;
 	font-weight: bold;
 }
+
+
 
 #from_our_blog p {
 	padding-right: 37px;
