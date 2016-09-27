@@ -83,7 +83,7 @@
 	color: #6c6c6c;
 	border: 1px solid #cdcdcd;
 	border-radius: 3px; 
-	background: linear-gradient(#fcfcfc, #f1f1f1 5px, #cbcbcb 26px, #d9d9d9 49px, #0939a7);
+	background: linear-gradient(to bottom, #fafafa, #e2e2e2);
 	margin-top: 17px;
 	box-shadow: 0 3px 3px 0 rgba(243,243,243,.75);
 }
