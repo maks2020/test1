@@ -39,7 +39,7 @@
 	margin-right: 0px;
 }
 
-#button_nav_header_active {
+.button_nav_header_active {
 	font-weight: bold;
 	color: #ffffff;
 	border: none;

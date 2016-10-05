@@ -25,11 +25,13 @@
 			case 'home':
 				$panel = 'panel_home.php';
 				$content = 'home_section.php';
+				
 				break;
 			
 			case 'portfolio':
 				$panel = "panel_all.php";
 				$content = "portfolio_section.php";
+				$button_menu = "\"button_nav_header_active\"";
 				break;
 				
 			default:
