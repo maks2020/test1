@@ -95,6 +95,7 @@
 	height: 336px;	
 	width: 960px;
 	background: #1b64c8;
+	float: left;
 }
 
 #panel #image_panel {
