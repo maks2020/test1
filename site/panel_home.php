@@ -45,7 +45,7 @@
 					</div> <!--end text_block_2-->	
 					
 					<div id="block_button_get_start_here">
-						<button id="get_started_here"><span id="string_get_started_here">GET STARTED HERE</span></button>
+						<a href="index.php?menu_value=contact"><button id="get_started_here"><span id="string_get_started_here">GET STARTED HERE</span></button></a>
 					
 						<div id="arrow_button_get_started_here">
 							<img src="images/Untitled 3.png">

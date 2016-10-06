@@ -1,20 +1,23 @@
 <?php 
-		$page_value = $_GET['menu_value'];
-		$link_1 = "<link href=\"";
-		$link_2 = ".css\" rel=\"stylesheet\" type=\"text/css\">";
-		
-			switch ($page_value) {
+			switch ($_GET['menu_value']) 
+			{
 			case 'home':
-				$style = "home";
+				$style = "<link href=\"home.css\" rel=\"stylesheet\" type=\"text/css\">";
+				break;
+				
+			case 'about':
+				$style = 	"<link href=\"content.css\" rel=\"stylesheet\" type=\"text/css\">
+							<link href=\"sidebar.css\" rel=\"stylesheet\" type=\"text/css\">
+							<link href=\"about_us.css\" rel=\"stylesheet\" type=\"text/css\">";
 				break;
 			
 			case 'portfolio':
-				$style = "portfolio";
+				$style = "<link href=\"portfolio.css\" rel=\"stylesheet\" type=\"text/css\">";
 				break;
 			
 			default:
-				$style = "home";
+				$style = "";
 				break;
-		}
-		echo  $link_1 . $style . $link_2;
+			}
+		echo  $style;
 ?>

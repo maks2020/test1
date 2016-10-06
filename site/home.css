@@ -82,8 +82,21 @@
 	font-size: 12px;
 	color: #6c6c6c;
 	border: 1px solid #cdcdcd;
-	border-radius: 3px; 
+	border-radius: 5px; 
 	background: linear-gradient(to bottom, #fafafa, #e2e2e2);
+	margin-top: 17px;
+	box-shadow: 0 3px 3px 0 rgba(243,243,243,.75);
+}
+
+.button_read_more:hover {
+	width: 96px;
+	height: 25px;
+	font-family: nevis;
+	font-size: 12px;
+	color: #ffffff;
+	border: 1px solid #cdcdcd;
+	border-radius: 5px; 
+	background: #b90016;
 	margin-top: 17px;
 	box-shadow: 0 3px 3px 0 rgba(243,243,243,.75);
 }
@@ -182,10 +195,10 @@
 	height: 51px;
 	font-family: trebuchet;
 	font-size: 20px;
-	color: #b90016;
+	color: #ffffff;
 	border: none;
 	border-radius: 8px; 
-	background: linear-gradient(#fcfcfc, #f1f1f1 5px, #d9d9d9 26px, #cbcbcb 49px, #0939a7);
+	background: #b90016;
 	margin-top: 30px;
 	box-shadow: 0 4px 4px 0 rgba(9,57,167,.75);
 }
@@ -200,14 +213,14 @@
 	left: 219px;
 }
 
-#arrow_button_get_started_here:hover {
+/*#arrow_button_get_started_here:hover {
 	width: 40px;
 	position: relative;
 	top: -32px;
 	left: 219px;
-	opacity: 1;
+	opacity: 0;
 	
-}
+}*/
 
 #string_get_started_here {
 	padding-left: 26px;

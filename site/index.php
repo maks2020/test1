@@ -8,35 +8,50 @@
 		<title>B - Home</title>
 		<link href="main_style.css" rel="stylesheet" type="text/css">
 		<link href="header.css" rel="stylesheet" type="text/css">
-		
-		<?php include_once "style.php";?>
-		
+		<?php include_once "style.php";?> 									<!--add css for pages-->
 		<link href="footer.css" rel="stylesheet" type="text/css">
 		
 	</head>
 	
-	<body>
-		
-		
-<?php
-		$page = $_GET['menu_value'];
-		
-		switch ($page) {
+	<body>		
+
+<!--pages constraction-->
+<?php	
+		switch ($_GET['menu_value']) 
+		{
+			case '':
+				$panel = 'panel_home.php';
+				$content = 'home_section.php';
+				break;
+				
 			case 'home':
 				$panel = 'panel_home.php';
 				$content = 'home_section.php';
-				
+				break;
+			
+			case 'about':
+				$panel = "panel_all.php";
+				$content = "";
+				break;
+			
+			case 'services':
+				$panel = "panel_all.php";
+				$content = "";
 				break;
 			
 			case 'portfolio':
 				$panel = "panel_all.php";
 				$content = "portfolio_section.php";
-				$button_menu = "\"button_nav_header_active\"";
+				break;
+				
+			case 'contact':
+				$panel = "panel_all.php";
+				$content = "";
 				break;
 				
 			default:
 				$panel = 'panel_home.php';
-				$content = 'home_section.php';
+				$content = '';
 				break;
 		}
 		include_once 'header.php';
