@@ -15,6 +15,10 @@
 	
 	<body>		
 
+<div id="background_image_fix">
+	<img src="images/bg_body.png">
+</div><!--end background_image_fix-->
+
 <!--pages constraction-->
 <?php	
 		switch ($_GET['menu_value']) 

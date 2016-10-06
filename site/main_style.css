@@ -12,8 +12,8 @@ a {
 
 body {
 	text-align: center;
-	background-image: url(images/bg_body.png);
-	background-repeat: no-repeat;
+	/*background-image: url(images/bg_body.png);
+	background-repeat: no-repeat;*/
 	background-position: top; 
 	background-color: #0e0e0e;
 	font-size: 12px;
@@ -21,6 +21,13 @@ body {
 	padding-top: 39px;
 	margin: 0 auto;
 	width: 960px;
+}
+
+#background_image_fix {
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	z-index: -1;
 }
 
 h2 {
