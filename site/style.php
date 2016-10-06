@@ -1,6 +1,11 @@
 <?php 
 			switch ($_GET['menu_value']) 
 			{
+			
+			case '':
+				$style = "<link href=\"home.css\" rel=\"stylesheet\" type=\"text/css\">";
+				break;
+			
 			case 'home':
 				$style = "<link href=\"home.css\" rel=\"stylesheet\" type=\"text/css\">";
 				break;
