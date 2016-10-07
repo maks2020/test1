@@ -5,12 +5,10 @@
 	
 	<head>
 		<meta charset="utf-8"/>
-		<title>B - Home</title>
 		<link href="main_style.css" rel="stylesheet" type="text/css">
 		<link href="header.css" rel="stylesheet" type="text/css">
 		<?php include_once "style.php";?> 									<!--add css for pages-->
 		<link href="footer.css" rel="stylesheet" type="text/css">
-		
 	</head>
 	
 	<body>		
@@ -21,49 +19,49 @@
 
 <!--pages constraction-->
 <?php	
-		switch ($_GET['menu_value']) 
+		switch ($_GET["menu_value"]) 
 		{
-			case '':
-				$panel = 'panel_home.php';
-				$content = 'home_section.php';
+			case "":
+				$panel = "panel_home.php";
+				$content = "home_section.php";
 				break;
 				
-			case 'home':
-				$panel = 'panel_home.php';
-				$content = 'home_section.php';
+			case "home":
+				$panel = "panel_home.php";
+				$content = "home_section.php";
 				break;
 			
-			case 'about':
+			case "about":
 				$panel = "panel_all.php";
 				$content = "";
 				break;
 			
-			case 'services':
+			case "services":
 				$panel = "panel_all.php";
 				$content = "";
 				break;
 			
-			case 'portfolio':
+			case "portfolio":
 				$panel = "panel_all.php";
 				$content = "portfolio_section.php";
 				break;
 				
-			case 'contact':
+			case "contact":
 				$panel = "panel_all.php";
 				$content = "";
 				break;
 				
 			default:
-				$panel = 'panel_home.php';
-				$content = '';
+				$panel = "panel_home.php";
+				$content = "";
 				break;
 		}
-		include_once 'header.php';
+		include_once "header.php";
 		include_once $panel;
 		include_once $content;
-		include_once 'footer.php';
+		include_once "footer.php";
 ?>
-		
+		<script src="script01.js"></script>
 	</body>
 	
 </html>

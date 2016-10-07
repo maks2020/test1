@@ -3,13 +3,13 @@
 				
 				<div id="menu_header_2">
 				
-					<ul>
+				 <!--	<ul>
 						<li>Web design</li>
 						<li>Blog Design</li>
 						<li>Logos</li>
 						<li>Print Works</li>
 						<li>Graphics</li>	
-					</ul>
+					</ul> -->
 					
 				</div> <!--end menu_header_2-->	
 				
