@@ -1,37 +1,38 @@
 /**
- * @author S
+ * @author Spiridonov Maksim
+ * add tag title on page and name on panel under header.
  */
-var new1 = document.createElement("title");
-new1.innerHTML = namePage();
-document.getElementsByTagName("head")[0].appendChild(new1);
+var titlePage = document.createElement("title");
+titlePage.innerHTML = namePage();
+document.getElementsByTagName("head")[0].appendChild(titlePage);
 
-
+if(namePage ()!=='Home') {
+		var headPanelUnderHeader = document.getElementById('h2_panel_header');
+		headPanelUnderHeader.innerHTML = namePage ();
+}
 
 function namePage () {
-	
-	/*var captureStringTagLinkPage = document.getElementById('style_page'); */
-	
-	
+		
 	switch (document.getElementById('style_page').getAttribute('href'))
 		{
 			case 'home.css':
-				var name = 'Home';
+				var namePage = 'Home';
 				break;
 		 	
 		 	case 'about_us.css':
-				var name = 'About Us';
+				var namePage = 'About Us';
 				break;
 			
 			case 'portfolio.css':
-				var name = 'Portfolio';
+				var namePage = 'Portfolio';
 				break;
 				
 			default:
-				var name = "Free";
+				var namePage = "Free";
 				break;
 		} 	
 	
-	return name;
+	return namePage;
 	  
 }
 
