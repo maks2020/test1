@@ -33,7 +33,7 @@
 			
 			case "about":
 				$panel = "panel_all.php";
-				$content = "";
+				$content = "aboutus.php";
 				break;
 			
 			case "services":

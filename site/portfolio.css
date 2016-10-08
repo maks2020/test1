@@ -45,14 +45,14 @@
 	float: left;
 }
 
-#panel {
+/*#panel {
 	text-align: left;
 	height: 84px;
 	background-image: url("images/header_panel grad.png");
 	background-repeat: no-repeat;
-}
+}*/
 
-#panel #menu_header_2 {
+#menu_header_2 {
 	text-align: right;
 	font-size: 13px;
 	font-weight: 100;
@@ -67,8 +67,8 @@
 	display: inline-block;
 }
 
-#head_panel_header {
+/*#head_panel_header {
 	font-size: 25px;
 	color: red;
-}
+}*/
 

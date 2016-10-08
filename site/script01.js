@@ -2,51 +2,48 @@
  * @author Spiridonov Maksim
  * add tag title on page and name on panel under header.
  */
-var titlePage = document.createElement("title");
-titlePage.innerHTML = namePage();
-document.getElementsByTagName("head")[0].appendChild(titlePage);
+var nameOfPage;
 
-if(namePage ()!=='Home') {
-		var headPanelUnderHeader = document.getElementById('h2_panel_header');
-		headPanelUnderHeader.innerHTML = namePage ();
-}
-
-function namePage () {
+/*function namePage () {*/
 		
 	switch (document.getElementById('style_page').getAttribute('href'))
 		{
 			case 'home.css':
-				var namePage = 'Home';
+				nameOfPage = 'Home';
 				break;
 		 	
 		 	case 'about_us.css':
-				var namePage = 'About Us';
+				nameOfPage = 'About Us';
+				var contentPanelUnderHeader = document.getElementById('main_text');
+				contentPanelUnderHeader.innerHTML = 'We are a dynamic team with innovative ideas for you';
 				break;
 			
 			case 'portfolio.css':
-				var namePage = 'Portfolio';
+				nameOfPage = 'Portfolio';
+				var contentPanelUnderHeader = document.getElementById('menu_header_2');
+				contentPanelUnderHeader.innerHTML = '<ul><li>Web design</li><li>Blog Design</li><li>Logos</li><li>Print Works</li><li>Graphics</li></ul>';
 				break;
 				
 			default:
-				var namePage = "Free";
+				nameOfPage = "Free";
 				break;
-		} 	
-	
-	return namePage;
-	  
+		}
+/*}*/
+
+//add title page
+var titlePage = document.createElement("title");
+titlePage.innerHTML = nameOfPage;
+document.getElementsByTagName("head")[0].appendChild(titlePage);
+
+//Add h2 in panel under "header". Add phrase and menu in panel for page
+
+if(nameOfPage!=='Home') {
+		var headPanelUnderHeader = document.getElementById('h2_panel_header');
+		headPanelUnderHeader.innerHTML = nameOfPage;
 }
 
 
 
 
 
-/*var new2 = new1.
 
-console.log(new1);
-
-new1.innerHTML = "New Title"; 
-
-/*console.log(document.getElementsByTagName("title"));
-new_string[0].innerHTML = "B - New text";*/
-
-/*var names_new = document.createElement("title");*/
