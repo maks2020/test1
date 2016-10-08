@@ -51,7 +51,7 @@ document.getElementsByTagName("head")[0].appendChild(titlePage);
 
 if(nameOfPage!=='Home') {
 		var headPanelUnderHeader = document.getElementById('h2_panel_header');
-		headPanelUnderHeader.setAttribute('style', 'width:200px');
+		/*headPanelUnderHeader.setAttribute('style', 'width:200px');*/
 		headPanelUnderHeader.innerHTML = nameOfPage;
 }
 
