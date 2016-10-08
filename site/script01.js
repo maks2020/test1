@@ -18,10 +18,22 @@ var nameOfPage;
 				contentPanelUnderHeader.innerHTML = 'We are a dynamic team with innovative ideas for you';
 				break;
 			
+			case 'services.css':
+				nameOfPage = 'Our Services';
+				var contentPanelUnderHeader = document.getElementById('main_text');
+				contentPanelUnderHeader.innerHTML = 'We are best in what we do. Check out our services.';
+				break;
+			
 			case 'portfolio.css':
 				nameOfPage = 'Portfolio';
 				var contentPanelUnderHeader = document.getElementById('menu_header_2');
 				contentPanelUnderHeader.innerHTML = '<ul><li>Web design</li><li>Blog Design</li><li>Logos</li><li>Print Works</li><li>Graphics</li></ul>';
+				break;
+				
+			case 'contact.css':
+				nameOfPage = 'Contact Us';
+				var contentPanelUnderHeader = document.getElementById('main_text');
+				contentPanelUnderHeader.innerHTML = 'Thank you for stopping by. How may we help you!';
 				break;
 				
 			default:
@@ -39,6 +51,7 @@ document.getElementsByTagName("head")[0].appendChild(titlePage);
 
 if(nameOfPage!=='Home') {
 		var headPanelUnderHeader = document.getElementById('h2_panel_header');
+		headPanelUnderHeader.setAttribute('style', 'width:200px');
 		headPanelUnderHeader.innerHTML = nameOfPage;
 }
 

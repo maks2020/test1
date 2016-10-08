@@ -1,0 +1,12 @@
+#main_text {
+	text-align: right;
+	font-size: 20px;
+	font-weight: 100;
+    font-style: italic;
+  	text-align: left;
+	color: #ffffff;
+	width: 475px;
+	padding: 37px 37px 0 0;
+	float: right;
+}
+
