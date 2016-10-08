@@ -7,7 +7,7 @@
 		<meta charset="utf-8"/>
 		<link href="main_style.css" rel="stylesheet" type="text/css">
 		<link href="header.css" rel="stylesheet" type="text/css">
-		<?php include_once "style.php";?> 									<!--add css for pages-->
+		<?php include_once "style_script.php";?> 									<!--add css for pages-->
 		<link href="footer.css" rel="stylesheet" type="text/css">
 	</head>
 	

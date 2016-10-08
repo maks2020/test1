@@ -11,31 +11,31 @@
 					<ul>
 						<li><a href="index.php?menu_value=home" title="Back to Main page">
 							<?php 
-							include_once "button_active.php";
+							include_once "button_active_script.php";
 							echo $button_state['home'];
 							?>
 							HOME</button></a></li>
 						<li><a href="index.php?menu_value=about" title="Who we are?">
 							<?php 
-							include_once "button_active.php";
+							include_once "button_active_script.php";
 							echo $button_state['about'];
 							?>
 							ABOUT</button></a></li>
 						<li><a href="index.php?menu_value=services" title="What we do?">
 							<?php 
-							include_once "button_active.php";
+							include_once "button_active_script.php";
 							echo $button_state['services'];
 							?>
 							SERVICES</button></a></li>
 						<li><a href="index.php?menu_value=portfolio" title="Why hire us?">
 							<?php 
-							include_once "button_active.php";
+							include_once "button_active_script.php";
 							echo $button_state['portfolio'];																		
 							?>
 							PORTFOLIO</button></a></li>
 						<li><a href="index.php?menu_value=contact" title="Where found us?">
 							<?php 
-							include_once "button_active.php";
+							include_once "button_active_script.php";
 							echo $button_state['contact'];																		
 							?>
 							CONTACT</button></a></li>
