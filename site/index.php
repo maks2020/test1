@@ -19,8 +19,7 @@
 
 <!--pages constraction-->
 <?php	
-		switch ($_GET["menu_value"]) 
-		{
+		switch ($_GET["menu_value"]) {
 			case "":
 				$panel = "panel_home.php";
 				$content = "home_section.php";
@@ -61,6 +60,7 @@
 		include_once $content;
 		include_once "footer.php";
 ?>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
 		<script src="script01.js"></script>
 	</body>
 	
