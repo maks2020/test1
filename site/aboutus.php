@@ -38,11 +38,8 @@
 				</div> <!--end our_clients-->
 				
 		</aside>
-		
-		
-		<section>
-				
-				<div id="content">
+						
+		<div id="contentAbout">
 				
 					<p>
 						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec viverra porta ullamcorper. Fusce a purus arcu, et congue quam. Sed urna ante, aliquet eu lacinia ac, aliquet vitae arcu. Integer id cursus magna. Vestibulum pulvinar dolor et magna vulputate at sagittis lectus luctus. Aenean pretium commodo lobortis. Proin ac augue enim, ut pulvinar ligula. In auctor egestas sem in tempor. Fusce iaculis vehicula purus. Nam rutrum ante in nibh facilisis eget placerat lorem ullamcorper. Donec tincidunt magna id ligula tincidunt eget fringilla odio tincidunt. Ut pharetra nulla ut nisl consectetur rutrum. Aenean eros mauris, posuere sit amet luctus eu, rhoncus at arcu.
@@ -59,5 +56,6 @@
 					<p>
 						Nam vulputate nisi ut libero porttitor venenatis. Quisque quam tortor, euismod nec lobortis sed, lobortis sodales augue. Pellentesque accumsan convallis eleifend. Suspendisse eu est diam, vitae tempor magna. Suspendisse at neque convallis neque sagittis ultrices. Fusce dapibus posuere elit quis vestibulum. Morbi in consectetur massa. Nunc semper, est a fermentum tempus, odio orci congue eros, non mattis est eros eget dolor. Ut eleifend viverra nunc, in lobortis libero lacinia sit amet. Vestibulum tristique porta nulla et dapibus. Duis ut tortor arcu. Vestibulum scelerisque dapibus eros at sagittis. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed sit amet dolor odio. In nunc mi, porta eu facilisis at, ullamcorper at enim.
 					</p>
-				</div> <!--end content-->
-		</section>
+					
+		</div> <!--end contentAbout-->
+		

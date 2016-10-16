@@ -51,7 +51,7 @@
 							
 						</div> <!--end text_columns-->
 						
-						<a href="index.php?menu_value=about"><button class="button_read_more">READ MORE</button></a>
+						<a href="index.html?menu_value=about"><button class="button_read_more">READ MORE</button></a>
 						
 					</div> <!--end content_3-->
 
@@ -94,7 +94,7 @@
 						
 						</div> <!--end text_columns-->
 						
-						<a href="index.php?menu_value=portfolio"><button class="button_read_more">READ MORE</button></a>
+						<a href="index.html?menu_value=portfolio"><button class="button_read_more">READ MORE</button></a>
 					
 					</div> <!--end content_2-->
 					

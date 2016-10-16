@@ -1,3 +1,5 @@
+$(function(){
+
 		$(".manage_button").click(function() {
 		var nameButton = $(this).text();
 		var nameVal = "index123.php?menu_value=" + nameButton;
@@ -6,18 +8,13 @@
 		var stylePanel;
 		var nameOfPagePanelUnderHeaderPanelUnderHeader;
 		var contentPanelUnderHeader;
-
 		
 		console.log(nameButton);
-		//console.log();
 		
 		var reqContent = nameVal.toLowerCase();
 		
 		var regContentPanelNoHome= contentPanel.toLowerCase;
 		
-		/*$.get(reqContent, function(data){
-				$("section").html(data);
-				}, "html");*/
 		
 		console.log("проба " + reqContent);
 		
@@ -94,7 +91,7 @@
 				$("section").html(data);
 				}, "html");
 			
-		} else if (nameOfPagePanelUnderHeader!=='Home' && nameOfPagePanelUnderHeader!=='Portfolio') {
+		} else {
 			
 			$('#panelUnderHeaderNoHome').remove();
 			$('header').after('<div id="panelUnderHeaderNoHome"></div> <!--end panelUnderHeaderNoHome-->');
@@ -110,3 +107,5 @@
 		}
 			
 		});
+		
+});

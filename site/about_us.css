@@ -45,11 +45,14 @@ aside #site_navigator {
 
 #aside_img {
 	padding-top: 34px;
+	line-height: 0;
 	float: left;
+	
 }
 
 aside .c1 {
 	list-style-position: inside;
+	line-height: 1;
 }
 
 aside .c1 :nth-child(odd) {
@@ -84,19 +87,19 @@ section {
 	background: linear-gradient(to right, #ededed 700px, #ffffff 722px);
 }
 
-#content {
+section #contentAbout {
 	width: 700px;
 	background: #ffffff;
 }
 
-section p {
+section #contentAbout p {
 	padding: 40px 28px 0px 40px;
 }
 
-section p:first-child {
+section #contentAbout p:first-child {
 	padding-top: 124px;
 }
 
-section p:last-child {
+section #contentAbout p:last-child {
 	padding-bottom: 40px;
 }
