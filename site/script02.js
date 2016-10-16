@@ -1,5 +1,7 @@
 $(function(){
-
+		$.get("index123.php?menu_value=home", function(data){
+				$("section").html(data);
+				}, "html");
 		$(".manage_button").click(function() {
 		var nameButton = $(this).text();
 		var nameVal = "index123.php?menu_value=" + nameButton;
