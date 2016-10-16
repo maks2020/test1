@@ -11,12 +11,11 @@ $(function(){
 		var nameOfPagePanelUnderHeaderPanelUnderHeader;
 		var contentPanelUnderHeader;
 		
-		console.log(nameButton);
+		console.log("Name button: " + nameButton);
 		
 		var reqContent = nameVal.toLowerCase();
 		
 		var regContentPanelNoHome= contentPanel.toLowerCase;
-		
 		
 		console.log("проба " + reqContent);
 		
@@ -67,6 +66,21 @@ $(function(){
 		
 					console.log("Имя Страницы: " + nameOfPagePanelUnderHeader);
 
+//add highlight button menu header
+
+		$('#nav button').each(function() {
+			if (nameButton === $(this).text()) {
+				
+				$(this).removeClass("button_nav_header_hidden button_nav_header_active").addClass("button_nav_header_active");
+				
+			} else {
+				
+				$(this).removeClass("button_nav_header_hidden button_nav_header_active").addClass("button_nav_header_hidden");
+				
+			}
+			
+		}); //end nav button
+
 		//add title page
 		$('title').html(nameOfPagePanelUnderHeader);
 		
@@ -75,13 +89,9 @@ $(function(){
 		if(nameOfPagePanelUnderHeader === 'Portfolio') {
 			
 			$('#panelUnderHeaderNoHome').remove();
-			$('header').after('<div id="panelUnderHeaderNoHome"></div> <!--end panelUnderHeaderNoHome-->');
-								
+			$('header').after('<div id="panelUnderHeaderNoHome"></div> <!--end panelUnderHeaderNoHome-->');			
 			$('#main_text').remove();
 			$('#panelUnderHeaderNoHome').html('<p><span id="h2_panel_header"></span></p><div id="menu_header_2"></div> <!--end menu_header_2-->');
-			$.get(reqContent, function(data){
-				$("section").html(data);
-				}, "html");
 			$('#h2_panel_header').html(nameOfPagePanelUnderHeader);
 			$('#menu_header_2').html(contentPanelUnderHeader);
 				
@@ -89,9 +99,6 @@ $(function(){
 		} else if (nameOfPagePanelUnderHeader === 'Home') {
 			
 			$('#panelUnderHeaderNoHome').remove();
-			$.get(reqContent, function(data){
-				$("section").html(data);
-				}, "html");
 			
 		} else {
 			
@@ -100,14 +107,14 @@ $(function(){
 			
 			$('#menu_header_2').remove();
 			$('#panelUnderHeaderNoHome').html('<p><span id="h2_panel_header"></span></p><p><span id="main_text"></span></p>');
-			$.get(reqContent, function(data){
-				$("section").html(data);
-				}, "html");
 			$('#h2_panel_header').html(nameOfPagePanelUnderHeader);
 			$('#main_text').html(contentPanelUnderHeader);
 			
 		}
-			
+		
+		$.get(reqContent, function(data){
+				$("section").html(data);
+				}, "html");
 		});
 		
 });
