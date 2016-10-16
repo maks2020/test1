@@ -66,9 +66,9 @@ $(function(){
 		
 					console.log("Имя Страницы: " + nameOfPagePanelUnderHeader);
 
-//add highlight button menu header
+//add highlight button menu header to click
 
-		$('#nav button').each(function() {
+		/*$('#nav button').each(function() {
 			if (nameButton === $(this).text()) {
 				
 				$(this).removeClass("button_nav_header_hidden button_nav_header_active").addClass("button_nav_header_active");
@@ -79,7 +79,10 @@ $(function(){
 				
 			}
 			
-		}); //end nav button
+		});  //end nav button */
+
+
+ 
 
 		//add title page
 		$('title').html(nameOfPagePanelUnderHeader);
@@ -115,6 +118,26 @@ $(function(){
 		$.get(reqContent, function(data){
 				$("section").html(data);
 				}, "html");
+		//add highlight button menu header to style in head example: "home.css"
+		
+		var stylePageHref = $('#stContent').attr('href');
+		
+		$('#nav button').each(function() {
+			
+			var nameButtonMenuHeader = $(this).text();
+			
+			if (stylePageHref.substr(0,4) === nameButtonMenuHeader.substr(0,4).toLowerCase()) {
+				
+				$(this).removeClass("button_nav_header_hidden button_nav_header_active").addClass("button_nav_header_active");
+				
+			} else {
+				
+				$(this).removeClass("button_nav_header_hidden button_nav_header_active").addClass("button_nav_header_hidden");
+				
+			}
+			
+		});  //end nav button 
+		
 		});
 		
 });
