@@ -52,20 +52,7 @@
 	background-repeat: no-repeat;
 }*/
 
-#menu_header_2 {
-	text-align: right;
-	font-size: 13px;
-	font-weight: 100;
-	color: #93daff;
-	width: 360px;
-	padding: 41px 30px 0 0;
-	float: right;
-}
 
-#menu_header_2 li {
-	margin-right: 10px;
-	display: inline-block;
-}
 
 /*#head_panel_header {
 	font-size: 25px;

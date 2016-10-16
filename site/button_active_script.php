@@ -6,27 +6,27 @@
 			
 			{
 				case "":
-					$button_state["home"] = "<button class=\"button_nav_header_active width_66\">";
+					$button_state["home"] = "<button class=\"button_nav_header_active width_66 manage_button\">";
 					break;
 						
 				case "home":
-					$button_state["home"] = "<button class=\"button_nav_header_active width_66\">";
+					$button_state["home"] = "<button class=\"button_nav_header_active width_66 manage_button\">";
 					break;
 					
 				case "about":
-					$button_state["about"] = "<button class=\"button_nav_header_active width_66\">";
+					$button_state["about"] = "<button class=\"button_nav_header_active width_66 manage_button\">";
 					break;
 					
 				case "services":
-					$button_state["services"] = "<button class=\"button_nav_header_active width_100\">";
+					$button_state["services"] = "<button class=\"button_nav_header_active width_100 manage_button\">";
 					break;
 				
 				case "portfolio":
-					$button_state["portfolio"] = "<button class=\"button_nav_header_active width_100\">";
+					$button_state["portfolio"] = "<button class=\"button_nav_header_active width_100 manage_button\">";
 					break;
 					
 				case "contact":
-					$button_state["contact"] = "<button class=\"button_nav_header_active width_100\">";
+					$button_state["contact"] = "<button class=\"button_nav_header_active width_100 manage_button\">";
 					break;
 				
 				default:

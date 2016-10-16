@@ -1,6 +1,42 @@
-#panel {
+#panelUnderHeaderNoHome {
 	text-align: left;
 	height: 84px;
+	width: 960px;
 	background-image: url("images/header_panel grad.png");
 	background-repeat: no-repeat;
+	float:left;
 }
+
+#menu_header_2 {
+	text-align: right;
+	font-size: 13px;
+	font-weight: 100;
+	color: #93daff;
+	width: 360px;
+	padding: 41px 30px 0 0;
+	float: right;
+}
+
+#menu_header_2 li {
+	margin-right: 10px;
+	display: inline-block;
+}
+
+#main_text {
+	text-align: right;
+	font-size: 20px;
+	font-weight: 100;
+    font-style: italic;
+  	text-align: left;
+	color: #ffffff;
+	width: 475px;
+	padding: 37px 37px 0 0;
+	float: right;
+}
+
+#h2_panel_header {
+	font-size: 24px;
+	color: #ffffff;
+	width: 200px;
+	padding: 34px 0px 0px 40px;
+	float: left;
