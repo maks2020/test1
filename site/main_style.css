@@ -12,9 +12,9 @@ a {
 
 body {
 	text-align: center;
-	background-image: url(images/bg_body.png);
+	/*background-image: url(images/bg_body.png);
 	background-repeat: no-repeat;
-	background-position: top; 
+	background-position: top;*/ 
 	background-color: #0e0e0e;
 	font-size: 12px;
 	font-family: Arial, Helvetica, sans-serif;
@@ -24,9 +24,14 @@ body {
 }
 
 #background_image_fix {
+	width: 1580px;
 	position: fixed;
 	top: 0px;
-	left: 0px;
+	/*left: 0px;*/
+	left: 50%;
+	margin-left: -790px;
+	
+	/**/
 	z-index: -1;
 }
 
