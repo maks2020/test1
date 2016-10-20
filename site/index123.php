@@ -17,7 +17,7 @@
 			
 			case "services":
 			//	$panel = "panel_all.php";
-				$content = "";
+				$content = "services.php";
 				break;
 			
 			case "portfolio":
@@ -27,7 +27,7 @@
 				
 			case "contact":
 			//	$panel = "panel_all.php";
-				$content = "";
+				$content = "contact.php";
 				break;
 				
 			default:

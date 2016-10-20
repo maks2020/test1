@@ -24,7 +24,7 @@ $(function(){
 		var nameOfPagePanelUnderHeaderPanelUnderHeader;
 		var contentPanelUnderHeader;
 		
-	//console.log("Name button: " + reqNamePage);
+	console.log("Name button: " + reqNamePage);
 		
 		//var reqContent = nameVal.toLowerCase();
 		
@@ -93,9 +93,6 @@ $(function(){
 			}
 			
 		});  //end nav button */
-
-
- 
 
 		//add title page
 		$('title').html(nameOfPagePanelUnderHeader);

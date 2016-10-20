@@ -14,6 +14,7 @@
 	position: relative;
 	top: 31px;
 	left: 41px;
+	cursor: pointer;
 }
 
 #logo_image {

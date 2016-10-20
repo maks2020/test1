@@ -1,4 +1,4 @@
-#main_text {
+/* #main_text {
 	text-align: right;
 	font-size: 20px;
 	font-weight: 100;
@@ -8,4 +8,122 @@
 	width: 475px;
 	padding: 37px 37px 0 0;
 	float: right;
+}*/
+
+aside {
+	font-weight: bold;
+	font-size: 15px;
+	background: #ffffff;
+	background: linear-gradient(to right, #ededed, #ffffff 22px);
+	width: 260px;
+	float: right;
 }
+
+aside .header_aside {
+	text-align: left;
+	width: 238px;
+	padding-left: 22px;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	margin-top: 40px;
+	background: linear-gradient(to right, #cfcfcf, #ffffff);
+}
+
+aside #company_info {
+	float: left;
+}
+
+#ul_aside_div {
+	padding: 14px 0 0 22px;
+	float: left;
+}
+
+
+#contact_with_us {
+	text-align: center;
+	float: left;
+}
+
+#aside_img {
+	
+	padding-top: 18px;
+	line-height: 0;
+	float: left;
+}
+
+#ref_social_aside {
+	
+	margin-left: 26px;
+	
+}
+
+#ref_social_aside li {
+	margin-right: 14px;	
+	display: inline-block;
+}
+
+aside .c1 {
+	list-style-position: inside;
+	line-height: 1;
+}
+
+aside .c1 :nth-child(odd) {
+	font-size:12px;
+	font-weight: 100;
+	color: #0f4db6;
+	text-align: left;
+	list-style-image: url("images/ul_marker_aside.gif");
+	padding-top: 8px;
+}
+
+aside .c1 :nth-child(even) {
+	font-family: "Arial";
+	font-size:12px;
+	font-weight: 100;
+	color: #838383;
+	text-align: left;
+	list-style: none;
+}
+
+.li_margin_context {
+	padding-left: 12px;
+}
+
+section {
+	font-size: 12px;
+	width: 960px;
+	text-align: left;
+	line-height: 2;
+	background: #ffffff;
+	color: #565656;
+	background: linear-gradient(to right, #ededed 700px, #ffffff 722px);
+}
+
+section #contentContact {
+	width: 700px;
+	background: #ffffff;
+}
+
+#contact_form {
+	
+	margin-left: 41px;
+	
+}
+
+.form_config_contact {
+	width: 383px;
+	height: 31px;
+	border: 1px solid #cacaca;
+	border-radius: 2px;
+
+}
+
+#text_area {
+	height: 161px;
+}
+
+ .value_form {
+ 	
+ 	padding-top: 26px;
+ 	
+ }
