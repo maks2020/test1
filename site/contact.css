@@ -24,28 +24,59 @@ aside .header_aside {
 	margin-top: 40px;
 }
 
-aside #company_info {
+
+#company_info,
+#contact_details,
+#contact_with_us,
+#ul_aside_div,
+#ul_aside_div_second {
 	float: left;
 }
 
-#ul_aside_div {
+#ul_aside_div,
+#ul_aside_div_second {
 	padding: 14px 0 0 22px;
-	float: left;
 }
 
 #contact_with_us {
 	text-align: left;
-	float: left;
 }
 
 #ref_social_aside {
 	margin: 18px 0 0 26px;
 }
 
-#ref_social_aside li {
+.social_buttons {
+	width: 30px;
+	height:30px;
+	margin-right: 14px;
+	border-radius: 2px;
+	box-shadow: 1px 8px 8px 1px rgba(122,122,122,.75);
+	float: left;
+}
+
+.social_buttons:hover {
+	box-shadow: 0px 4px 4px 0px rgba(122,122,122,.75);
+	margin-top: 2px;
+	opacity: .8;
+}
+
+
+/*#ref_social_aside li {
 	margin-right: 14px;	
 	display: inline-block;
-}
+}*/
+
+/*#ref_social_aside img {
+	box-shadow: 1px 8px 8px 1px rgba(122,122,122,.75);	
+}*/
+
+/*#ref_social_aside img:hover {
+	box-shadow: 0px 4px 4px 0px rgba(122,122,122,.75);
+	margin: 1px 1px 0 0;
+	opacity: .7;
+		
+}*/
 
 aside .c1 {
 	list-style-position: inside;
@@ -86,6 +117,7 @@ section #contentContact {
 #text_area {
 	height: 159px;
 	background: linear-gradient(to bottom, #eeeeee, #fefefe 36px);
+	resize: none;
 }
 
  .border_design {
@@ -122,6 +154,7 @@ section #contentContact {
  	color: #6c6c6c;
  	background: linear-gradient(to bottom, #fafafa, #e2e2e2);
  	margin: 19px 0 63px 0;
+ 	box-shadow: 0 3px 3px 0 rgba(243,243,243,.75);
  	
  	
  	
