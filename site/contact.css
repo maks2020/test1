@@ -1,18 +1,9 @@
-/* #main_text {
-	text-align: right;
-	font-size: 20px;
-	font-weight: 100;
-    font-style: italic;
-  	text-align: left;
-	color: #ffffff;
-	width: 475px;
-	padding: 37px 37px 0 0;
-	float: right;
-}*/
+@font-face {
+	font-family: "nevis";
+	src: url('font/Nevis/nevis.ttf');
+}
 
 aside {
-	font-weight: bold;
-	font-size: 15px;
 	background: #ffffff;
 	background: linear-gradient(to right, #ededed, #ffffff 22px);
 	width: 260px;
@@ -25,8 +16,12 @@ aside .header_aside {
 	padding-left: 22px;
 	padding-top: 8px;
 	padding-bottom: 8px;
-	margin-top: 40px;
+	margin-top: 15px;
 	background: linear-gradient(to right, #cfcfcf, #ffffff);
+}
+
+#header_company_info {
+	margin-top: 40px;
 }
 
 aside #company_info {
@@ -38,23 +33,13 @@ aside #company_info {
 	float: left;
 }
 
-
 #contact_with_us {
-	text-align: center;
-	float: left;
-}
-
-#aside_img {
-	
-	padding-top: 18px;
-	line-height: 0;
+	text-align: left;
 	float: left;
 }
 
 #ref_social_aside {
-	
-	margin-left: 26px;
-	
+	margin: 18px 0 0 26px;
 }
 
 #ref_social_aside li {
@@ -64,29 +49,6 @@ aside #company_info {
 
 aside .c1 {
 	list-style-position: inside;
-	line-height: 1;
-}
-
-aside .c1 :nth-child(odd) {
-	font-size:12px;
-	font-weight: 100;
-	color: #0f4db6;
-	text-align: left;
-	list-style-image: url("images/ul_marker_aside.gif");
-	padding-top: 8px;
-}
-
-aside .c1 :nth-child(even) {
-	font-family: "Arial";
-	font-size:12px;
-	font-weight: 100;
-	color: #838383;
-	text-align: left;
-	list-style: none;
-}
-
-.li_margin_context {
-	padding-left: 12px;
 }
 
 section {
@@ -96,34 +58,77 @@ section {
 	line-height: 2;
 	background: #ffffff;
 	color: #565656;
-	background: linear-gradient(to right, #ededed 700px, #ffffff 722px);
+	background: linear-gradient(to right, #e9e9e9, #ffffff 9px, #ededed 701px, #ffffff 722px);
+	
 }
 
 section #contentContact {
 	width: 700px;
 	background: #ffffff;
+	background: linear-gradient(to right, #e9e9e9, #ffffff 9px);
 }
 
 #contact_form {
 	
 	margin-left: 41px;
+	margin-top: 84px;
 	
 }
 
 .form_config_contact {
-	width: 383px;
-	height: 31px;
-	border: 1px solid #cacaca;
+	width: 381px;
+	height: 29px;
+	border: 1px solid #fefefe;
 	border-radius: 2px;
-
+	background: linear-gradient(to bottom,#eeeeee, #fefefe 29px);
 }
 
 #text_area {
-	height: 161px;
+	height: 159px;
+	background: linear-gradient(to bottom, #eeeeee, #fefefe 36px);
 }
 
- .value_form {
+ .border_design {
+ 	width: 383px;
+	height: 31px;
+	border: 1px solid #cacaca;
+	border-radius: 2px;
+	margin-top: 12px;
+ }
+ 
+.border_design_textarea {
+	
+	width: 383px;
+	height: 161px;
+	border: 1px solid #cacaca;
+	border-radius: 2px;
+	margin-top: 12px;
+	
+}
+
+.value_form {
+	font-size: 13px;
+	padding-top: 26px;
+ }
+ 
+ #submit_form {
+ 	width: 96px;
+ 	height: 25px;
+ 	font-family: "nevis";
+ 	font-size: 12px;
+ 	font-style: bold;
+ 	border: 1px solid #cdcdcd;
+ 	border-radius: 2px;
+ 	color: #6c6c6c;
+ 	background: linear-gradient(to bottom, #fafafa, #e2e2e2);
+ 	margin: 19px 0 63px 0;
  	
- 	padding-top: 26px;
+ 	
+ 	
+ }
+ 
+ label {
+ 	
+ 	
  	
  }
