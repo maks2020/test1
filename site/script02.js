@@ -77,7 +77,7 @@ $(function(){
 			$('#stContent').attr('href', styleContent);
 			$('#stPanel').attr('href', stylePanel);
 		
-					console.log("Имя Страницы: " + nameOfPagePanelUnderHeader);
+	//				console.log("Имя Страницы: " + nameOfPagePanelUnderHeader);
 
 //add highlight button menu header to click
 
@@ -127,10 +127,6 @@ $(function(){
 			
 		}
 		
-		$.get(reqContent, function(data){
-				$("section").html(data);
-				}, "html");
-				
 		//add highlight button menu header to style in head example: "home.css"
 		
 		var stylePageHref = $('#stContent').attr('href');
@@ -151,6 +147,10 @@ $(function(){
 			
 		});  //end nav button 
 		
+		$.get(reqContent, function(data){
+				$("section").html(data);
+				}, "html");
+		
 		});
 		
-});
+}); // end ready
