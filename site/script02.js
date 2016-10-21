@@ -43,14 +43,14 @@ $(function(){
 				styleContent = "about_us.css";
 				stylePanel = "panel_all.css";
 				nameOfPagePanelUnderHeader = "About Us";
-				contentPanelUnderHeader = "<p>We are a dynamic team with innovative ideas for you</p>";
+				contentPanelUnderHeader = "<h3>We are a dynamic team with innovative ideas for you</h3>";
 				break;
 				
 			case 'services':
 				styleContent = "services.css";
 				stylePanel = "panel_all.css";
 				nameOfPagePanelUnderHeader = "Our Services";
-				contentPanelUnderHeader =  "<p>We are best in what we do. Check out our services</p>";
+				contentPanelUnderHeader =  "<h3>We are best in what we do. Check out our services</h3>";
 				break;
 			
 			case 'portfolio':
@@ -64,7 +64,7 @@ $(function(){
 				styleContent = "contact.css"; 
 				stylePanel = "panel_all.css";
 				nameOfPagePanelUnderHeader = "Contact Us";
-				contentPanelUnderHeader = "<p><span>Thank you for stopping by. How may we help you!</span></p>";
+				contentPanelUnderHeader = "<h3><span>Thank you for stopping by. How may we help you!</span></h3>";
 						  
 				break;
 			
@@ -106,7 +106,7 @@ $(function(){
 			$('#panelUnderHeaderNoHome').remove();
 			$('header').after('<div id="panelUnderHeaderNoHome"></div> <!--end panelUnderHeaderNoHome-->');			
 			$('#main_text').remove();
-			$('#panelUnderHeaderNoHome').html('<p><span id="h2_panel_header"></span></p><div id="menu_header_2"></div> <!--end menu_header_2-->');
+			$('#panelUnderHeaderNoHome').html('<h2><span id="h2_panel_header"></span></h2><div id="menu_header_2"></div> <!--end menu_header_2-->');
 			$('#h2_panel_header').html(nameOfPagePanelUnderHeader);
 			$('#menu_header_2').html(contentPanelUnderHeader);
 				
@@ -121,7 +121,7 @@ $(function(){
 			$('header').after('<div id="panelUnderHeaderNoHome"></div> <!--end panelUnderHeaderNoHome-->');
 			
 			$('#menu_header_2').remove();
-			$('#panelUnderHeaderNoHome').html('<p><span id="h2_panel_header"></span></p><p><span id="main_text"></span></p>');
+			$('#panelUnderHeaderNoHome').html('<h2><span id="h2_panel_header"></span></p><p><span id="main_text"></span></h2>');
 			$('#h2_panel_header').html(nameOfPagePanelUnderHeader);
 			$('#main_text').html(contentPanelUnderHeader);
 			
